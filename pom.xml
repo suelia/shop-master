@@ -29,19 +29,21 @@
 		<java.version>1.8</java.version>
 	</properties>
 
-	<dependencies>
-		<!-- json 序列化 -->
-		<dependency>
-			<groupId>com.alibaba</groupId>
-			<artifactId>fastjson</artifactId>
-			<version>1.2.49</version>
-		</dependency>
-		<!-- http 连接池 -->
-		<dependency>
-			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>httpclient</artifactId>
-			<version>4.5.6</version>
-		</dependency>
-	</dependencies>
+	<dependencyManagement>
+		<dependencies>
+			<!-- json 序列化 -->
+			<dependency>
+				<groupId>com.alibaba</groupId>
+				<artifactId>fastjson</artifactId>
+				<version>1.2.49</version>
+			</dependency>
+			<!-- http 连接池 -->
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient</artifactId>
+				<version>4.5.6</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 </project>
