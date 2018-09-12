@@ -31,6 +31,14 @@
 
 	<dependencyManagement>
 		<dependencies>
+			<!-- spring cloud 支持 -->
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>Finchley.SR1</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 			<!-- json 序列化 -->
 			<dependency>
 				<groupId>com.alibaba</groupId>
