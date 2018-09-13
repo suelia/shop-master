@@ -39,6 +39,12 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<!-- 热部署 -->
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-devtools</artifactId>
+				<optional>true</optional>
+			</dependency>
 			<!-- json 序列化 -->
 			<dependency>
 				<groupId>com.alibaba</groupId>
