@@ -1,4 +1,8 @@
 #生产模式
+spring:
+  application:
+    #Eureka服务注册中心名称
+    name: eureka-server
 server:
   port: 7000
 
