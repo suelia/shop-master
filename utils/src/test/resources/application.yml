@@ -1,2 +1,7 @@
 utils:
   key-generation: false
+  random:
+    number: true
+    low-case: false
+    up-case: false
+

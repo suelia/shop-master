@@ -1,2 +1,4 @@
 utils:
   key-generation: false
+  random:
+    number: false

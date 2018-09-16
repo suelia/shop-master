@@ -3,9 +3,11 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringBootConfiguration;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import team.whatdev.shop.utils.algorithm.KeyGeneration;
+import team.whatdev.shop.utils.constant.UtilsProperties;
 import team.whatdev.shop.utils.exception.AlgorithmException;
 
 @RunWith(SpringRunner.class)

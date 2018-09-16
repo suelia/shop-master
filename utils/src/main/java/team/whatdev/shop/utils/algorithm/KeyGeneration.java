@@ -1,6 +1,8 @@
 package team.whatdev.shop.utils.algorithm;
 
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import team.whatdev.shop.utils.constant.Charset;
+import team.whatdev.shop.utils.constant.UtilsProperties;
 import team.whatdev.shop.utils.exception.AlgorithmException;
 
 import java.io.UnsupportedEncodingException;

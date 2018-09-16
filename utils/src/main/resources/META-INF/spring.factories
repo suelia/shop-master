@@ -1,1 +1,3 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=team.whatdev.shop.utils.config.KeyGenerationConfig
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  team.whatdev.shop.utils.config.KeyGenerationConfig,\
+  team.whatdev.shop.utils.config.RandomTextConfig
